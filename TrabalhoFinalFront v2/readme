@@ -1,0 +1,5 @@
+Domecuntação da Aplicação:
+
+Joao Roberto: Como eu decidi começar fazendo a Aplicação pelo js, peguei uma estrutura basica do html, contendo somente um pequeno formulario aonde eu posso colcoar os dados, e uma pequena tabela aonde eu posso olhar os dados da api, os dados que estao sendo inseridos, editados e os dados que estao sendo excluidos, e fiz uma  estilização basica utilizando css.
+
+Em seguida criei o a pasta JS, contendo o arquivo api.js, e nele comecei a puxar os dados da api para aparecer na tabela, para que eu conseguisse visualizar os dados da ap

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Projeto API Contatos</title>
+    <script src="js/api.js" defer type="module"></script>
+
+</head>
+<body>
+    <header>
+        Sistema de Gerenciamento de Contatos
+    </header>
+
+    <div id="principal">
+        <h1>Cadastro de Contatos</h1>
+        <form id="form">
+            <input type="text" id="nome">
+            <input type="text" id="telefone">
+            <input type="text" id="email">
+            <input type="text" id="imagem">
+            
+            <div id="salvar"> Salvar </div>
+        </form>
+    </div>
+
+    <div id="listLivros">
+        <h1> Listagem de contatos </h1>
+        <div class="linha">
+            <div class="titulo">nome</div>
+            <div class="titulo">telefone</div>
+            <div class="titulo">imagem</div>
+            <div class="titulo">email</div>
+        </div>
+        <div id="listDados">
+        </div>
+       
+    </div>
+</body>
+</html>
